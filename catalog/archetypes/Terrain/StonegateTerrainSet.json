@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "TerrainTileset",
+  "based_on": "TerrainTileset_SigmaStation",
+  "cliff_set_a": "DA_Cliffset_Rand_A",
+  "cliff_set_b": "DA_CliffSet_Deadlands",
+  "display_name": "",
+  "doodad_aggregate_layer": "Moss",
+  "id": "TerrainTileset_Stonegate",
+  "layer_1": "TerrainLayer_ForestAutumn_GrassGround",
+  "layer_2": "TerrainLayer_ForestAutumn_RockyGround",
+  "layer_3": "TerrainLayer_Deadlands_CaveGround",
+  "layer_4": "TerrainLayer_UrbanRuins_RedGrass",
+  "layer_5": "TerrainLayer_ForestAutumn_Mud",
+  "layer_6": "TerrainLayer_ForestAutumn_GrayRock",
+  "layer_7": "TerrainLayer_ForestAutumn_Dirt",
+  "layer_8": "TerrainLayer_UrbanRuins_RedGrass2",
+  "render_abyss": true,
+  "water_table": "DA_WaterTable_ForestAutumn"
+}

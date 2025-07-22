@@ -1,0 +1,37 @@
+﻿{
+  "__base_type": "TerrainLayer",
+  "based_on": "TerrainLayer",
+  "display_name": "",
+  "id": "TerrainLayer_UrbanRuins_RedGrass2",
+  "layer_name": "RedGrass",
+  "minimap_color": "9E6C56FF",
+  "painted_doodads": [
+    {
+      "doodad": "PaintedDoodad_Hinterlands_BigGrass1",
+      "influence": 1.0
+    },
+    {
+      "doodad": "PaintedDoodad_Hinterlands_BigGrass3",
+      "influence": 1.0
+    },
+    {
+      "doodad": "PaintedDoodad_Hinterlands_SmallGrass2",
+      "influence": 1.0
+    }
+  ],
+  "texture_base": "Texture2D'/Game/Pegasus/Art/Biomes/UrbanRuins/Terrain/T_UrbanRuins_Terrain_RedGrass_D.T_UrbanRuins_Terrain_RedGrass_D'",
+  "texture_height": "Texture2D'/Game/Pegasus/Art/Biomes/UrbanRuins/Terrain/T_UrbanRuins_Terrain_RedGrass_H.T_UrbanRuins_Terrain_RedGrass_H'",
+  "texture_normal": "Texture2D'/Game/Pegasus/Art/Biomes/ForestAutumn/Terrain/T_ForestAutumn_Terrain_Mud_N.T_ForestAutumn_Terrain_Mud_N'",
+  "texture_orm": "Texture2D'/Game/Pegasus/Art/Biomes/ForestAutumn/Terrain/T_ForestAutumn_Terrain_Mud_ORM.T_ForestAutumn_Terrain_Mud_ORM'",
+  "use_custom_minimap_color": false,
+  "value_blend_type": 1.0,
+  "value_brightness": 1.3,
+  "value_hue_shift": -9.097778,
+  "value_metalness_multi": 2,
+  "value_metalness_offset": 0.0,
+  "value_normal_power": 4.792768,
+  "value_roughness_multi": 2.0,
+  "value_roughness_offset": 0.0,
+  "value_saturation": 2,
+  "value_tiling": 1.0
+}

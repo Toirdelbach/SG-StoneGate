@@ -1,0 +1,16 @@
+{
+  "data_format_version": 0,
+  "description": "",
+  "dimensions": [
+    256,
+    256
+  ],
+  "game_mode": "Melee",
+  "gameplay_level_name": "BasicStartingLevel",
+  "id": "d6f19907-4c29-8f23-0b05-3fb4ffa8bead",
+  "map_name": "Unititled Map",
+  "map_tags": [],
+  "tile_set_id": "TerrainTileset_Stonegate",
+  "version": "1.0.0",
+  "visibility": "Explored"
+}

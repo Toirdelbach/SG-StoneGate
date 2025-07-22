@@ -1,0 +1,128 @@
+﻿{
+  "based_on": "DefaultMapSettings",
+  "camera_bounds": {
+    "bottom_offset": 0.0,
+    "left_offset": 0.0,
+    "right_offset": 0.0,
+    "top_offset": 0.0
+  },
+  "description": "The Stone will be gated",
+  "id": "InstanceMapSettings",
+  "lighting_settings": "DefaultLightingNight",
+  "playable_bounds": {
+    "bottom_offset": 3,
+    "left_offset": 3,
+    "right_offset": 3,
+    "top_offset": 3
+  },
+  "player_slots": [
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "human"
+        },
+        "team": {
+          "locked": false,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 1
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 2
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 3
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 4
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 5
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 6
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": false,
+          "value": "ai"
+        },
+        "team": {
+          "locked": false,
+          "value": 7
+        }
+      }
+    }
+  ],
+  "time_of_day": {
+    "scale": 1.0
+  },
+  "title": "Stonegate"
+}
