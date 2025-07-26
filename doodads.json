@@ -3,6 +3,10 @@
   "actor_classes": [
     {
       "bp": "BlueprintGeneratedClass''",
+      "pa": "D_DesertOasis_PalmTreeJunkPile_03"
+    },
+    {
+      "bp": "BlueprintGeneratedClass''",
       "pa": "Deadlands_HeatHaze"
     },
     {
@@ -112,7 +116,7 @@
   ],
   "placements": {
     "00044959-4A43-E7F5-8DBC-88A1C5C65EEF": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -127,8 +131,56 @@
         0.6991027593612671
       ]
     },
+    "00389858-405F-8947-5CB4-51A68A0E3C18": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3840.0,
+        2688.0,
+        1024.999973498104,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "00BBF18B-48A4-90BA-540E-DD8AA9755E5A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        1280.0,
+        1024.9999283371026,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "010EF88D-464F-AFCD-28FA-B993074920D4": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        4224.0,
+        1024.9999413786024,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "03111DE4-44E4-63CB-AD1A-529CD9E6A9D0": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -144,7 +196,7 @@
       ]
     },
     "0393A557-462E-B23D-8049-0AA150304620": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 26033
@@ -163,7 +215,7 @@
       ]
     },
     "03F520E7-4EF1-24DF-577A-838E1A146EAC": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -178,8 +230,40 @@
         0.6615955233573914
       ]
     },
+    "05C3EFFD-47A6-F55E-4ED7-53B3C2A16CAA": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        -512.0,
+        1024.999957654493,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "05CB8C8D-4B14-D8F5-67C9-6497771C344F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -384.0,
+        1792.0,
+        1025.0000111337558,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "060F4212-41C9-ACCF-1DD3-57965972C1A0": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -195,7 +279,7 @@
       ]
     },
     "069FD0F0-493C-0F6B-24E6-81A594D6B93F": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -211,13 +295,13 @@
       ]
     },
     "07060005-444E-44B1-3DB1-449809A9C944": {
-      "class": 9,
+      "class": 10,
       "collision": false,
       "homing": true,
       "trs": [
         797.3301391601563,
         -4704.512786865234,
-        1006.4307327270508,
+        1003.91015625,
         0.0,
         154.25275683403012,
         -0.0,
@@ -227,13 +311,13 @@
       ]
     },
     "0740C35B-4D89-2B4E-2051-8699E056DFEB": {
-      "class": 11,
+      "class": 12,
       "collision": false,
       "homing": true,
       "trs": [
         1907.4302555689283,
         -3444.968648258513,
-        1006.4307327270508,
+        1040.179443359375,
         0.0,
         -139.28049304759676,
         0.0,
@@ -243,7 +327,7 @@
       ]
     },
     "08370102-487A-66C9-A9E8-4588BA49DD9E": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -258,8 +342,24 @@
         2.349081
       ]
     },
+    "0884EEAA-49EB-6F1A-D30D-5AA39B4550FF": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1920.0,
+        0.0,
+        1024.9999926031965,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "088D4577-445E-D46C-D4AE-1786215BED36": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -275,7 +375,7 @@
       ]
     },
     "09F9E324-4B15-30CA-455B-83876416EB70": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -290,8 +390,24 @@
         0.8558152914047241
       ]
     },
+    "0AA27AB9-449C-8346-760D-62966B3952CE": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2432.0,
+        -768.0,
+        1025.0000218414566,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "0BACEF65-4851-D0F4-B293-E7A4D8EC761F": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -307,7 +423,7 @@
       ]
     },
     "0C038F2B-4804-6C0E-CD7F-68A0C966A097": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 25353
@@ -326,7 +442,7 @@
       ]
     },
     "0C9E9011-412D-BC3A-9DC3-BDBAFA694832": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -342,13 +458,13 @@
       ]
     },
     "0D2BF747-4F88-6477-2914-D48500380753": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -2383.511795609883,
         190.68750552634242,
-        1006.4307327270508,
+        1044.315559387207,
         0.0,
         10.376110984832733,
         -0.0,
@@ -358,7 +474,7 @@
       ]
     },
     "0E31A66E-40A3-0FDE-66DC-DCB486F92D2C": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -374,7 +490,7 @@
       ]
     },
     "0FAD7522-4BBB-BAF9-B783-1E9C477152C0": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -390,7 +506,7 @@
       ]
     },
     "10EEA675-4085-3E9F-3E01-1599C3BB314C": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -406,7 +522,7 @@
       ]
     },
     "110BBA7F-4640-409A-DA49-0CA68E6EB13F": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -422,7 +538,7 @@
       ]
     },
     "110E74C3-4CD0-89EA-5590-E1BECDBB22B7": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -438,7 +554,7 @@
       ]
     },
     "11B707A6-4373-82E5-73DC-818ED4547F14": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -454,7 +570,7 @@
       ]
     },
     "147E1E74-4552-7711-CB00-C0869BC57917": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 7446
@@ -472,8 +588,24 @@
         1.0
       ]
     },
+    "14A53B28-4FC1-2B98-8179-37A6F24FCA22": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        1152.0,
+        1025.0000638466868,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "14D06D0C-4B7E-AD57-C2F0-C89E3FE8D8C6": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -489,7 +621,7 @@
       ]
     },
     "14EDA6EF-4E53-EE36-E388-1DB06AA7C716": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -505,7 +637,7 @@
       ]
     },
     "15D92D73-43D2-643F-6045-519A1C0E5659": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -521,7 +653,7 @@
       ]
     },
     "15E74267-4B25-0169-E4C5-80B00431B57A": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -537,7 +669,7 @@
       ]
     },
     "160F4D72-4F22-EFC8-7DA7-BF9C217A1BA7": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -553,7 +685,7 @@
       ]
     },
     "179A6165-4FC5-CCCB-9561-40B7CC46A70D": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -569,7 +701,7 @@
       ]
     },
     "18F8317F-4908-6804-3584-99A3DD5BBF09": {
-      "class": 21,
+      "class": 22,
       "collision": true,
       "homing": true,
       "trs": [
@@ -584,8 +716,24 @@
         1.6612731929667341
       ]
     },
+    "1915FD9F-4104-9FA1-CE5B-D8B773031DB7": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        256.0,
+        1792.0,
+        1025.0000072199452,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "19CFD0A7-4A84-A984-7809-2F8F3E0607FF": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 25353
@@ -603,8 +751,24 @@
         1.0
       ]
     },
+    "1A0740D3-441E-DF30-3785-0AAA34BDA874": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -768.0,
+        -1280.0,
+        1024.999990734872,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "1A43BA5D-4F88-06F5-059C-0EB77BDFF9F3": {
-      "class": 21,
+      "class": 22,
       "collision": true,
       "homing": true,
       "trs": [
@@ -620,7 +784,7 @@
       ]
     },
     "1A71BD2D-4FF9-DE42-ABFA-348A32FB1E2E": {
-      "class": 24,
+      "class": 25,
       "collision": true,
       "homing": true,
       "trs": [
@@ -636,7 +800,7 @@
       ]
     },
     "1A9D036C-44F4-16AF-61ED-2F8A1BEF57AA": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": false,
       "trs": [
@@ -652,7 +816,7 @@
       ]
     },
     "1C374B24-4E13-BE48-1C3E-D6972A20B063": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 9583
@@ -671,7 +835,7 @@
       ]
     },
     "1C40C48C-4BF7-436B-34C0-36A8F9686247": {
-      "class": 11,
+      "class": 12,
       "collision": false,
       "homing": true,
       "trs": [
@@ -687,7 +851,7 @@
       ]
     },
     "1E6ACDBC-4A55-D14E-E561-9DAF5441AEEB": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -703,7 +867,7 @@
       ]
     },
     "1F3A2D82-44CD-29F5-798A-9A81FA518666": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -718,8 +882,24 @@
         0.9941557049751282
       ]
     },
+    "1F95C1EF-4B58-AB7A-FFED-68B9790DF063": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        1024.0,
+        1025.0000471086169,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "1FFA80CF-463D-93F7-893E-5388B91DC66E": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -734,8 +914,24 @@
         6.0
       ]
     },
+    "2020AF65-4267-99D4-B0B7-49B8459A9245": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1408.0,
+        1408.0,
+        1024.9999402069789,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "20300429-4400-1D48-3520-E1BC9DF2C2DD": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -751,13 +947,13 @@
       ]
     },
     "209692D6-4707-8B36-7837-A697783BC24B": {
-      "class": 11,
+      "class": 12,
       "collision": false,
       "homing": true,
       "trs": [
         -1005.726466089357,
         2920.752517526889,
-        1006.4307327270508,
+        1007.491828918457,
         9.12228294982032,
         37.86499248285704,
         82.79401745877064,
@@ -767,7 +963,7 @@
       ]
     },
     "209B40D9-4B9A-3A13-9AA6-A1A89775F3FC": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
@@ -783,7 +979,7 @@
       ]
     },
     "20A387F6-4117-D038-F012-65AF49272ECB": {
-      "class": 7,
+      "class": 8,
       "collision": false,
       "homing": true,
       "trs": [
@@ -798,8 +994,24 @@
         10.0
       ]
     },
+    "2107A0FC-40EE-9E95-DE77-43AFCF96FC57": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2816.0,
+        -896.0,
+        1025.0000287690973,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "229BFCEE-4ECB-8330-F77A-1F89D74DA957": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -815,7 +1027,7 @@
       ]
     },
     "2486D2A9-4B94-60DF-6800-50960E13F7BD": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -831,7 +1043,7 @@
       ]
     },
     "251FBFEF-4E26-9786-7F35-63B124061150": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 8785
@@ -849,8 +1061,24 @@
         1.0
       ]
     },
+    "258D3DE1-415D-67D1-0C02-FFB6825F47D1": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2176.0,
+        -128.0,
+        1024.9999659355549,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "25E0EEBF-4EDC-7265-F7DE-709390153DB8": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -866,7 +1094,7 @@
       ]
     },
     "261875A1-4675-B449-0F1C-7598F3B68F9A": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -882,7 +1110,7 @@
       ]
     },
     "263A384D-4995-E1DD-2879-48BF39DF4F35": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -898,7 +1126,7 @@
       ]
     },
     "268ED674-4400-CC45-AF24-5FA5159360DB": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -913,8 +1141,40 @@
         0.5651569962501526
       ]
     },
-    "272FD23E-4B74-F0FB-C31F-178931E29F4C": {
+    "26903C6A-4EEB-5591-6774-969ACC392ABC": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        256.0,
+        1536.0,
+        1024.9999115033327,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "271798EE-43CC-43C6-8E75-C6A4E56019E5": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        1152.0,
+        1024.9999686106319,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "272FD23E-4B74-F0FB-C31F-178931E29F4C": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -930,7 +1190,7 @@
       ]
     },
     "2844D2A4-4BE7-49A0-6D09-49ACB9255D16": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": false,
       "trs": [
@@ -946,7 +1206,7 @@
       ]
     },
     "28C6F08B-4B24-EAB5-3341-ACA997B393D1": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -961,14 +1221,30 @@
         1.03853
       ]
     },
+    "28DEF9CA-4840-9F3B-7334-659FEFDDFBA2": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1664.0,
+        1408.0,
+        1025.0000613093137,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "29360AFB-4736-87B2-9B50-8ABD7E079513": {
-      "class": 7,
+      "class": 8,
       "collision": false,
       "homing": true,
       "trs": [
         116.42385036337782,
         -4633.5859005935245,
-        1006.4307327270508,
+        1057.2716217041016,
         0.0,
         159.74608182907102,
         -0.0,
@@ -977,8 +1253,24 @@
         2.365005030790819
       ]
     },
+    "2970E8C2-418C-300E-B08D-CBB65059C5F9": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -128.0,
+        -1664.0,
+        1024.999999028435,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "2BEC3B80-44ED-50FB-DC0A-CD9E3CF2BC0C": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -993,8 +1285,24 @@
         1.0
       ]
     },
+    "2C092D3E-4A53-892F-1656-64A93851CF32": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        -1536.0,
+        1025.000042329631,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "2C4EB69B-46B5-615F-C86B-0CA7E8713802": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
@@ -1010,13 +1318,13 @@
       ]
     },
     "2D00DC86-4F74-5D3A-6B11-E099848BDB79": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -2151.473789076197,
         -2459.7494712674347,
-        1006.4307327270508,
+        1026.2345886230469,
         0.0,
         14.168794416318548,
         -0.0,
@@ -1026,13 +1334,13 @@
       ]
     },
     "2D4EC30D-45C3-5962-5A8A-0BB3CCE8162C": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -2492.138429526578,
         -1156.9269967123575,
-        1006.4307327270508,
+        933.4430618286133,
         0.0,
         177.27450726786407,
         -0.0,
@@ -1041,8 +1349,24 @@
         5.0
       ]
     },
+    "2D58C21D-4FEB-09BB-AA96-029E1CF63F2A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        4096.0,
+        1024.9999840836613,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "2D765628-4A78-9A82-5A1D-53A8A25D9008": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1057,8 +1381,40 @@
         1.0582445859909058
       ]
     },
+    "2D95FE82-4D2F-BBF4-5FB8-ABA9F3A07B63": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        4480.0,
+        1024.9999952483815,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "2F994E0C-4024-185A-E1E3-848A0F831715": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        3968.0,
+        1025.000012650208,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "2FB53EB0-4BFB-B3AF-26B9-7099FBDBFBF6": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1074,7 +1430,7 @@
       ]
     },
     "3025B0E0-456A-4097-301C-6B979F6A8880": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1090,7 +1446,7 @@
       ]
     },
     "30AAC1EE-4F0E-6C73-3119-418BDBBB89F7": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1106,7 +1462,7 @@
       ]
     },
     "32570DA6-4966-0CFC-5FBC-8DABFCCE6D24": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1122,7 +1478,7 @@
       ]
     },
     "342CB2CD-48B7-B61B-6571-4CA1DC16B288": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1138,7 +1494,7 @@
       ]
     },
     "345CFC00-41E7-F51D-0A09-AABFC36572B9": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1154,7 +1510,7 @@
       ]
     },
     "34B6BE07-4F67-24E9-F110-A98B16BBB7B0": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1169,8 +1525,24 @@
         0.734473705291748
       ]
     },
-    "358DF171-4464-250B-17C2-64A97B891243": {
+    "351ABB43-4FFA-735B-DAFA-DE8990CC7CFE": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        -1664.0,
+        1024.9999883500961,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "358DF171-4464-250B-17C2-64A97B891243": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1186,7 +1558,7 @@
       ]
     },
     "36D084F6-408F-7A7A-7530-599A39A98A37": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1202,7 +1574,7 @@
       ]
     },
     "37A99214-48C7-A9F1-AF91-3C8B01363004": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1218,7 +1590,7 @@
       ]
     },
     "38AEE681-4220-AB14-4C05-F09B1C9EE2C0": {
-      "class": 10,
+      "class": 11,
       "collision": false,
       "homing": true,
       "trs": [
@@ -1234,7 +1606,7 @@
       ]
     },
     "398908F7-411C-04BA-0D5D-5E9492995EA8": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1250,7 +1622,7 @@
       ]
     },
     "3A83853C-4A33-E210-666F-158113315F66": {
-      "class": 25,
+      "class": 26,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1265,8 +1637,40 @@
         1.2280495166778564
       ]
     },
+    "3ABEC88F-434B-A90C-F3CB-9D924FF49139": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1024.0,
+        1664.0,
+        1025.0000082342783,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "3AC96838-4584-C895-2E12-0188CC8DB055": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        -640.0,
+        1024.9999763376727,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "3B070C68-4EE2-2C3B-2B9A-91A9BFF5D47D": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 9977
@@ -1284,8 +1688,24 @@
         1.0
       ]
     },
+    "3B4BD27E-4206-817E-6578-BA9F4FAC5E9C": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -768.0,
+        -1408.0,
+        1025.0000220310487,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "3B61E130-4D40-DCAA-7DDA-32BF94AB188B": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1301,7 +1721,7 @@
       ]
     },
     "3B877A64-4991-2F19-90B7-C9A6A652B313": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1317,7 +1737,7 @@
       ]
     },
     "3B92F88D-4E0D-791F-6D07-9E81E9D26535": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1332,8 +1752,56 @@
         0.6577085325177044
       ]
     },
-    "3D1EB1C6-4D37-E92D-0B7C-CA947D467513": {
+    "3BB8F448-464B-2BAB-D5E9-BC992359F539": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2176.0,
+        -384.0,
+        1024.999997413544,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "3C1ECC4B-43D8-8A34-4D81-9EA967405657": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        3584.0,
+        1025.0000528706562,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "3D0D6B62-4EB9-4C1C-2F8C-509F3FD53EAE": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1920.0,
+        1280.0,
+        1024.9999329130258,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "3D1EB1C6-4D37-E92D-0B7C-CA947D467513": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1349,7 +1817,7 @@
       ]
     },
     "3D3A51CC-4125-3797-F873-C8BE3D852099": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1365,7 +1833,7 @@
       ]
     },
     "3D72FF95-4BD2-9BB0-A7F6-B497C1216DAE": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1381,7 +1849,7 @@
       ]
     },
     "3DC331F7-495E-AC56-9898-7D8BB0706457": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1397,7 +1865,7 @@
       ]
     },
     "3EB9F3C4-4A1B-8691-DD53-B3A0981008A4": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1413,7 +1881,7 @@
       ]
     },
     "3EC6CAE8-4420-BDC6-1349-7A8E4E871A49": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1429,7 +1897,7 @@
       ]
     },
     "3F0AD175-47C3-FFD9-619F-C287A0855208": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1445,7 +1913,7 @@
       ]
     },
     "3F0DD521-457C-9F64-4141-4BB239934F82": {
-      "class": 25,
+      "class": 26,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1461,7 +1929,7 @@
       ]
     },
     "41318A7C-4F18-561D-BD8C-8D8A221304EC": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -1477,7 +1945,7 @@
       ]
     },
     "416300CD-466D-F1FF-F52D-58B39211E327": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1492,8 +1960,24 @@
         1.4612720012664795
       ]
     },
+    "420101D7-42F9-74F8-192C-D9AF82A7A3A5": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        4480.0,
+        1025.000028334768,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "421CE144-4825-F4C9-404E-9C8926AE8757": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1509,7 +1993,7 @@
       ]
     },
     "43FDD831-49C6-62F7-491E-C09E147A341B": {
-      "class": 21,
+      "class": 22,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1524,8 +2008,40 @@
         1.661273
       ]
     },
+    "46D7C772-4D07-DE44-85FC-34BE25CFBF91": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        4096.0,
+        1025.000011074058,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "476BA523-49AE-182A-5878-708656C92A2F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3712.0,
+        2688.0,
+        1024.9999623010465,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "4785FE6A-4F78-1855-18AD-1FA9D0E53512": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1541,7 +2057,7 @@
       ]
     },
     "478F0A19-4C07-A6EC-1D4F-4BAB2E0F43AB": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -1556,8 +2072,40 @@
         5.0
       ]
     },
+    "47F56D8A-4F6C-E6A6-B125-83A731AFCD44": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -128.0,
+        -1792.0,
+        1025.000001751349,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "492C5E7A-46C0-5757-DEA1-F187B1B650C8": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3584.0,
+        2944.0,
+        1025.0000258351185,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "49AE1F37-4B76-A3CA-13BF-B5B638A7B45B": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1573,7 +2121,7 @@
       ]
     },
     "4A5F809B-48FE-2947-7990-5D86C6701412": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1589,7 +2137,7 @@
       ]
     },
     "4C90A1F6-443D-4DF4-8AB9-9CAF9231C8AE": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1604,8 +2152,24 @@
         1.1379284858703613
       ]
     },
+    "4CB8CCD6-4055-6C24-DF7A-C996498AA569": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1024.0,
+        1536.0,
+        1025.0000365017959,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "4CDF26A2-4D43-D555-75A3-1EA8B4F6D875": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1621,7 +2185,7 @@
       ]
     },
     "4D648587-44DD-0AA2-2D26-2594226F9072": {
-      "class": 7,
+      "class": 8,
       "collision": false,
       "homing": true,
       "trs": [
@@ -1637,7 +2201,7 @@
       ]
     },
     "4D953C56-4A4F-DB17-55DB-BAA2AAF8F49E": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1653,7 +2217,7 @@
       ]
     },
     "4DBD5836-4D72-764D-D9B1-A9A1C73A95A5": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1669,7 +2233,7 @@
       ]
     },
     "4DF146DB-4037-9895-FBA3-2B834D9FF48A": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1685,7 +2249,7 @@
       ]
     },
     "4EA6C4D9-4603-5D80-BBF4-9CA8612BD4DD": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1700,8 +2264,40 @@
         0.5662251710891724
       ]
     },
+    "4ED9274D-423A-09FC-B03B-5794B52990C6": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        640.0,
+        4096.0,
+        1024.999980573354,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "4EF327F8-461F-6602-8F70-CF950DDF7E05": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        256.0,
+        1664.0,
+        1025.0000013999704,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "500F7231-493E-0C77-B5CE-08AC8AA9EDA5": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1717,7 +2313,7 @@
       ]
     },
     "50F0E64F-4BCE-EACA-ACFC-B8B761AC9DAD": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1733,7 +2329,7 @@
       ]
     },
     "5189DA2A-43AA-B909-1A8D-6E80F87DC444": {
-      "class": 24,
+      "class": 25,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1749,7 +2345,7 @@
       ]
     },
     "51FA41A4-4375-E742-772C-47A85BDA9333": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1765,7 +2361,7 @@
       ]
     },
     "5258AA41-44A0-8EC7-0B94-7E9E81416A18": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1781,7 +2377,7 @@
       ]
     },
     "52A1D9EF-4537-6142-FF4D-38A72C3D2266": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1796,8 +2392,24 @@
         1.0055391788482666
       ]
     },
+    "53BB4A10-47DF-98FF-E174-0C98FBF29AF6": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2176.0,
+        0.0,
+        1025.0000222396056,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "5433E07A-4A7B-B92D-FBF9-B28FE94764B1": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1812,8 +2424,24 @@
         1.1536936964368087
       ]
     },
+    "549CD246-4EB9-E9B1-70FE-D78641EFCD50": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        4096.0,
+        1025.0000525668504,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "54A41C17-4469-4653-251D-50A3103DFD1B": {
-      "class": 24,
+      "class": 25,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1829,7 +2457,7 @@
       ]
     },
     "550C72E9-482B-F2A1-2788-CEB9730BE3FE": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": false,
       "trs": [
@@ -1845,7 +2473,7 @@
       ]
     },
     "55C49E36-4211-A4EB-38DE-C09B6FF3F289": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1860,8 +2488,24 @@
         1.0
       ]
     },
-    "56CF46FA-4D3A-EAA0-25C2-208022D565BB": {
+    "55E52F23-48FF-0470-DD4D-02B35AB20F0F": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        3840.0,
+        1024.9999739840266,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "56CF46FA-4D3A-EAA0-25C2-208022D565BB": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1877,7 +2521,7 @@
       ]
     },
     "56FA096D-41E4-6F7B-5B9D-3C9F23FD9340": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1893,13 +2537,13 @@
       ]
     },
     "571606A2-44A4-EE99-63C7-C18124587570": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         918.5406200653633,
         -1934.2243107192426,
-        1006.4307327270508,
+        1044.7678298950195,
         0.0,
         122.00292169594098,
         0.0,
@@ -1909,7 +2553,7 @@
       ]
     },
     "574588E0-4F05-D369-740F-27B51D22FFB4": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1925,7 +2569,7 @@
       ]
     },
     "57651951-4BE4-A8B1-58A6-E8A735F701BA": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1940,8 +2584,24 @@
         0.8376567959785461
       ]
     },
+    "57D682F1-494A-E3A9-38CC-CEA90509DCE8": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1408.0,
+        1280.0,
+        1025.0000050252208,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "5814F362-43CD-050E-CD71-7E9298221351": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1957,7 +2617,7 @@
       ]
     },
     "58C44ED0-47E6-7241-9CBE-FEA6ABCD636A": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -1973,13 +2633,13 @@
       ]
     },
     "58E779FC-40C1-0C70-48E8-E8B7001C88FD": {
-      "class": 8,
+      "class": 9,
       "collision": false,
       "homing": true,
       "trs": [
         797.3301391601563,
         -4192.512786865234,
-        1006.4307327270508,
+        995.6034622192383,
         0.0,
         -153.86434472761394,
         0.0,
@@ -1989,7 +2649,7 @@
       ]
     },
     "5ADB9347-4F0E-10F0-3D87-79AC9D7C040F": {
-      "class": 24,
+      "class": 25,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2005,13 +2665,13 @@
       ]
     },
     "5AF87E88-4915-DA8F-B6E3-4E871DD06CBD": {
-      "class": 11,
+      "class": 12,
       "collision": false,
       "homing": true,
       "trs": [
         -739.5685120891537,
         3334.3067162317843,
-        1006.4307327270508,
+        1010.4111404418945,
         8.939695425539721,
         151.58851160796394,
         96.4032525264461,
@@ -2020,8 +2680,24 @@
         2.0
       ]
     },
+    "5AF97477-494F-ACA5-E496-87ABE68B3B82": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        3968.0,
+        1025.000032965992,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "5BCEFF9F-4104-F4D2-E7FD-A5AD08EFC405": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2036,14 +2712,30 @@
         1.0280007123947144
       ]
     },
+    "5CBE4B4F-40F7-2F96-3C65-22B28B99DC87": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        -384.0,
+        1025.0000096708584,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "5D146086-4FF5-E235-2B26-F597BB1DF098": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -1907.3648439868862,
         1788.626901294046,
-        1006.4307327270508,
+        1059.8635330200195,
         1.2289870000000005,
         -109.03000722574643,
         2.6723320000000017,
@@ -2053,7 +2745,7 @@
       ]
     },
     "5DA3E243-450F-6035-2443-A3B3785DEE37": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2069,7 +2761,7 @@
       ]
     },
     "5DB276B6-422A-44CF-1A2D-ADB90FC8BF81": {
-      "class": 8,
+      "class": 9,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2085,7 +2777,7 @@
       ]
     },
     "5DF7E8FF-477F-4FF9-EA55-909120990DC4": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2100,8 +2792,24 @@
         1.0
       ]
     },
+    "5DFD1722-48A8-03CB-82AD-E9B7FC8A61F0": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        3712.0,
+        1024.9999669129054,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "5E64ABC8-41BF-75CC-2F07-E1928123E7FC": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2116,8 +2824,40 @@
         2.6150345602134855
       ]
     },
+    "5EB6AEDF-40F7-2379-B465-B8AD76C36E06": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        4352.0,
+        1024.999937051034,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "5FA26BE8-4775-5D36-F234-22A914AD044F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2688.0,
+        -896.0,
+        1025.0000172143432,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "620EBFEB-40D5-C8B2-1DA0-01BC362C34D4": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2133,7 +2873,7 @@
       ]
     },
     "62E01ACA-4011-4B65-CACD-68AC2F196269": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2148,8 +2888,24 @@
         1.0
       ]
     },
+    "6314523C-42FA-461F-655D-73809461BA79": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1920.0,
+        -256.0,
+        1024.9999478371637,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "6349CB2B-46AA-FF8D-BFAE-469F2225B8AD": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2165,7 +2921,7 @@
       ]
     },
     "63D7908B-4891-A8C5-3B22-278E5C246E72": {
-      "class": 10,
+      "class": 11,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2180,8 +2936,24 @@
         0.24486408090436987
       ]
     },
+    "64195146-45F1-3478-E793-0DB3479495F3": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        3968.0,
+        1024.9999243788427,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "654DF12F-42DC-4FB7-A4F7-A094C87ED6F6": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2196,8 +2968,56 @@
         1.188009262084961
       ]
     },
+    "65A30A6F-4BB0-4908-31CD-1D9875DA09FE": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1152.0,
+        1536.0,
+        1025.0000961500327,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "676D0745-414E-E3B8-2C4E-2CA21C4E012D": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        -256.0,
+        1024.9999841300883,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "68BBA0C7-422B-47B7-2D52-8FB7756DC351": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        4224.0,
+        1024.9999802073298,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "693AC6C7-4DE6-AC9D-745C-F7A9407F5176": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2212,8 +3032,24 @@
         1.03853
       ]
     },
+    "69647988-4222-34A2-EABF-BC95C3C9C4D0": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        128.0,
+        -1536.0,
+        1025.0000637614153,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "699A1132-4077-84EF-B7DD-B0AE425AE3B0": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2229,23 +3065,23 @@
       ]
     },
     "6A179101-4FB4-5569-7E3F-98A97D3F6CE6": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
         1548.8054134293284,
         -3770.9801076044832,
-        1006.4307327270508,
+        1073.882423400879,
         0.0,
         -137.97051429748532,
         0.0,
-        3.901989535157521,
-        3.901989535157521,
-        3.901989535157521
+        3.9019895351575205,
+        3.9019895351575205,
+        3.9019895351575205
       ]
     },
     "6B8339D6-49D6-6CCE-1232-97B720572DEF": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2261,7 +3097,7 @@
       ]
     },
     "6BA50ED9-43F1-D2B7-F1C8-9A8B82A81E06": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2277,7 +3113,7 @@
       ]
     },
     "6CFF7032-4204-A274-2437-06ADBC153810": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2293,7 +3129,7 @@
       ]
     },
     "6D460055-4F44-1974-7A05-3AA6641739B5": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2308,8 +3144,24 @@
         1.03853
       ]
     },
+    "6D982BC2-4303-9765-FB62-EB8442199A69": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        4352.0,
+        1025.0001003330967,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "6F69267D-4D62-CD03-08EB-ADB819260A3E": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2325,7 +3177,7 @@
       ]
     },
     "702C5446-4DBC-BE67-FAD7-3BAD4D9C7509": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2340,8 +3192,24 @@
         1.2277748584747314
       ]
     },
+    "7062EFBC-4BA4-916A-D754-308993E5BF80": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        640.0,
+        3968.0,
+        1024.9999753364884,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "7143D14D-4332-F6AA-AF0D-8F97774CD988": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2356,8 +3224,24 @@
         0.7966094017028809
       ]
     },
+    "721C56EC-47B8-9708-A23A-EF947D9D6216": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1280.0,
+        1408.0,
+        1024.9999331933484,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "723E32C8-4DB0-FCDF-E4C5-7C952597D197": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2373,7 +3257,7 @@
       ]
     },
     "738EFB8E-4576-E334-BED4-F085E89DC230": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2388,8 +3272,24 @@
         1.1696372032165527
       ]
     },
+    "7423EBE0-4903-41BC-9A61-7D806231C77C": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        1024.0,
+        1024.9999857615628,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "74865B6E-442F-9BA6-A458-038438E8FFC4": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2405,7 +3305,7 @@
       ]
     },
     "756EB80F-4D16-FA91-47D5-9EBED196A159": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2421,7 +3321,7 @@
       ]
     },
     "75E70E29-4800-E387-E92E-6CA2431ABBB6": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2436,8 +3336,24 @@
         6.5
       ]
     },
+    "769A7774-49E9-DAE4-9CE8-2E85677FE48A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3456.0,
+        2816.0,
+        1024.9999518617499,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "7757C16C-4D95-0035-EDB3-C790E4EF022F": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2452,8 +3368,24 @@
         1.0
       ]
     },
+    "780DD033-421B-2DDA-E57C-DFA22DB7BE87": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        128.0,
+        1536.0,
+        1024.9999027218958,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "795C933B-4517-60A3-F5E6-738E99FFE1C7": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2469,7 +3401,7 @@
       ]
     },
     "79BB1053-4575-7B5E-58A5-7DA5D8E4627F": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2485,7 +3417,7 @@
       ]
     },
     "7A387A39-4886-2BE7-19AE-13AB4A1C365D": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2501,7 +3433,7 @@
       ]
     },
     "7A6442BA-4851-41AC-E96F-8EBC49DB28B5": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2517,7 +3449,7 @@
       ]
     },
     "7B1782E8-4C38-E1E7-97A2-DEA727A589EF": {
-      "class": 10,
+      "class": 11,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2532,8 +3464,40 @@
         1.5
       ]
     },
+    "7BBCD841-442F-1AB2-8058-188934EE40BF": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1664.0,
+        1024.0,
+        1024.9999367136645,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "7C5C19E5-416C-1DDE-784E-11A8596FA675": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        -1536.0,
+        1024.9999606559397,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "7CE61504-4E3C-1ABD-FE95-93B415CC94FB": {
-      "class": 7,
+      "class": 8,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2548,8 +3512,24 @@
         1.0
       ]
     },
+    "7D179C25-4444-5C3F-3F8C-C7817E6EBCA3": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        768.0,
+        4096.0,
+        1025.0000478140148,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "7D8E9C21-4170-DBD6-8BAA-D9A424340378": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2565,7 +3545,7 @@
       ]
     },
     "7EF20B18-419E-8362-ADE7-3FBBCBF86724": {
-      "class": 26,
+      "class": 27,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2581,13 +3561,13 @@
       ]
     },
     "7F1E2706-4744-6BDB-7A4E-E2B5D9C4D324": {
-      "class": 12,
-      "collision": false,
-      "homing": true,
+      "class": 13,
+      "collision": true,
+      "homing": false,
       "trs": [
         614.0183068265178,
         -2846.2984276859625,
-        1006.4307327270508,
+        1039.938331604004,
         0.0,
         -96.42994165420534,
         0.0,
@@ -2597,7 +3577,7 @@
       ]
     },
     "81112B1E-4F0E-E1FB-071F-65BDA769492C": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 17286
@@ -2616,7 +3596,7 @@
       ]
     },
     "82A3AE8D-4C77-148E-01BC-89A740333D22": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2632,7 +3612,7 @@
       ]
     },
     "82C66F2B-49B2-8853-0425-CFBFCF5A8491": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 28086
@@ -2651,13 +3631,13 @@
       ]
     },
     "830CDADE-4AAC-66CA-3472-628FA8B7DCF5": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -2492.138429526578,
         -1710.5923008130997,
-        1006.4307327270508,
+        1035.9079895019531,
         0.0,
         13.669868341476441,
         -0.0,
@@ -2667,7 +3647,7 @@
       ]
     },
     "8399E59C-4ADE-7771-25A3-9B89FF903F19": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2683,13 +3663,13 @@
       ]
     },
     "83A66221-40FA-CE97-6B2E-AEA7D21C26B5": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         3898.688969561416,
         1043.803800422201,
-        1006.4307327270508,
+        919.590950012207,
         0.0,
         -94.48703969548959,
         0.0,
@@ -2699,7 +3679,7 @@
       ]
     },
     "84644B59-4C6C-AC94-7CDC-399D4E17257D": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2714,8 +3694,24 @@
         0.7218390703201294
       ]
     },
+    "85298167-4341-71DC-4F5A-358E78C43CFA": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        3712.0,
+        1025.0000440153772,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "85467A26-4678-FD8B-722B-9B82068A54B2": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2731,7 +3727,7 @@
       ]
     },
     "86294496-4A7F-83D5-8B89-D0B14DC7E1E4": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 1857
@@ -2750,7 +3746,7 @@
       ]
     },
     "862DF641-44C8-1DD1-11E1-A995570D7452": {
-      "class": 7,
+      "class": 8,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2766,7 +3762,7 @@
       ]
     },
     "865B8C39-4E1C-1C2D-5E1C-B5A24E05DB18": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 12954
@@ -2785,7 +3781,7 @@
       ]
     },
     "865E809A-49F9-9CC3-95F4-CFA9753ADB8D": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2800,8 +3796,24 @@
         4.0
       ]
     },
+    "8754D102-4CF3-3B60-2B7A-32A832FCC84A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        1280.0,
+        1025.0000044314374,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "87FE59F3-4B51-931B-942E-229116429506": {
-      "class": 7,
+      "class": 8,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2817,7 +3829,7 @@
       ]
     },
     "88920A6B-4515-8CA3-72A0-BCB0A3F439FF": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2833,7 +3845,7 @@
       ]
     },
     "896EDC55-4B7B-50C8-C6FC-51BCAE830E40": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2849,7 +3861,7 @@
       ]
     },
     "8A20C907-4012-5427-34FF-D3AFA060C379": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2865,7 +3877,7 @@
       ]
     },
     "8AC2395A-45EC-8C23-EB54-85BF2873511B": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2881,7 +3893,7 @@
       ]
     },
     "8B1BA7D1-4AC9-C8C5-89D5-CDB236D98A82": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
@@ -2897,7 +3909,7 @@
       ]
     },
     "8B27AFD4-42F3-0C00-4A92-678B4408F2F4": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2912,8 +3924,56 @@
         0.5666829347610474
       ]
     },
+    "8BFE1CDA-41BA-E9CC-8A0F-F3ADB993086E": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        1792.0,
+        1025.000024677819,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "8D442B64-4830-3E1E-56D5-0CB263C443AA": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1664.0,
+        -256.0,
+        1024.9999277641787,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "8D626566-4D12-FE36-27ED-5D97DA24BF12": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        1024.0,
+        1025.0001019545932,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "8D850C53-4748-9E7A-1C69-578B982DF86E": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2929,7 +3989,7 @@
       ]
     },
     "8EE8C499-40F8-5015-CBEC-91832FE37E1E": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2944,8 +4004,24 @@
         1.194862
       ]
     },
+    "8F17F667-476A-7F59-6848-E6A9940FA7FF": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        512.0,
+        3968.0,
+        1025.0000206984116,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "8F341F7D-44F3-4408-EED9-598251265BC1": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2960,8 +4036,24 @@
         1.0
       ]
     },
+    "8F732AC4-46B9-1CF2-CE76-B281213735C8": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3328.0,
+        3072.0,
+        1024.9999950581619,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "908F50A3-442B-F666-E08E-C9B0DF9E19DD": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2976,8 +4068,24 @@
         1.0
       ]
     },
+    "9098FFE2-4A78-60EB-C5F5-14B3E15BD112": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        -256.0,
+        1024.9999576504179,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "91048DA8-48FB-93FD-9BB0-62933D6C37CF": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -2992,8 +4100,40 @@
         2.349081
       ]
     },
+    "91F61C72-4F80-04EA-B258-E799304251D9": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        3840.0,
+        1024.9999712747199,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "924507BF-48E7-66F6-590C-82808084718F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1920.0,
+        1024.0,
+        1024.999941775015,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "92B15533-4D42-2912-7783-3283A3E7ED27": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3009,7 +4149,7 @@
       ]
     },
     "92EA3A53-48BE-8012-9ECF-DEB0E8FB7806": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3024,8 +4164,24 @@
         0.7200689911842346
       ]
     },
+    "93387963-4520-BFE6-92F5-148E497EC52C": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        1664.0,
+        1025.000012330246,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "93A17FAF-4CB6-B516-F044-158A68BA19EB": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3041,7 +4197,7 @@
       ]
     },
     "93CD9135-4E64-B768-F9F3-94B9C9B81B21": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3057,7 +4213,7 @@
       ]
     },
     "9411B111-4942-A191-5714-2386F08A52E5": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3073,7 +4229,7 @@
       ]
     },
     "943E33DA-4545-7AEB-D103-E3A83218FBD4": {
-      "class": 10,
+      "class": 11,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3088,8 +4244,24 @@
         5.817954331946379
       ]
     },
+    "9548687A-48CD-377D-BCF6-43B9DCFFC68F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2816.0,
+        -896.0,
+        1025.0000373731314,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "9588585F-4EF1-6702-D57D-EDAEA935879B": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3104,8 +4276,24 @@
         0.6497286856541272
       ]
     },
+    "95E77663-45DE-9FEF-67EF-9884020C1E77": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        128.0,
+        1408.0,
+        1024.999969307852,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "963CEDD6-4081-470F-D91E-C0AAF008FA6C": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3120,8 +4308,24 @@
         0.8098543882369995
       ]
     },
+    "9670BC8C-484E-6BE1-9E50-D0B549F7CA0A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3072.0,
+        3456.0,
+        1024.9999914803261,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "96B9A72F-4CE8-D685-5CF9-D19DC99EA8F5": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 27397
@@ -3140,7 +4344,7 @@
       ]
     },
     "96BDB42C-48CD-FF1A-B104-E89AB1690B98": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3155,8 +4359,40 @@
         0.7298349142074585
       ]
     },
+    "97288A8C-4BC2-6F86-9287-FE8AC680BCA0": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3456.0,
+        2688.0,
+        1025.0000321702953,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "9746E000-4563-C429-7ABF-658509A4112E": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        4096.0,
+        1024.9999464662426,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "984BB792-4C8D-C787-FE7E-EAA1267A630B": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3172,7 +4408,7 @@
       ]
     },
     "987F3BEE-4CCF-673F-CD54-CC929A15841F": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3188,7 +4424,7 @@
       ]
     },
     "98D24CD9-4426-98D5-895B-8580C207FE22": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3204,7 +4440,7 @@
       ]
     },
     "99DD3D0E-4B23-B596-D49F-43A6253CCA88": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3220,7 +4456,7 @@
       ]
     },
     "9AB7BC52-4CF1-FA64-9FAF-D3A93FEDA468": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3235,8 +4471,24 @@
         1.274620771408081
       ]
     },
+    "9B9934EA-4DD7-B21A-46A0-B5B42BB4713A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        4224.0,
+        1024.9999711606958,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "9B9A811B-45E8-6872-3254-15BA008C7FC2": {
-      "class": 25,
+      "class": 26,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3251,8 +4503,40 @@
         1.4105502367019653
       ]
     },
+    "9C133EB0-4D09-67E0-BAFD-36B761EE49E3": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3712.0,
+        2688.0,
+        1024.9999797783557,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "9D2634DC-434E-534B-16BB-3CA4CCB8FEF9": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        128.0,
+        896.0,
+        1024.9999722307848,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "9E8709BE-4B3B-5548-4FC9-2E9032FD29E7": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3268,7 +4552,7 @@
       ]
     },
     "9E9B0E95-4DC5-4C59-DD46-7DBE694BABD9": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3284,7 +4568,7 @@
       ]
     },
     "9F4ED92C-4638-D09D-76EE-49861B169335": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 32201
@@ -3302,8 +4586,72 @@
         1.0
       ]
     },
+    "A004C6AD-4BBC-D914-63EC-97B70BE50D88": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2560.0,
+        -896.0,
+        1025.0000091011286,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "A04A6E9A-4E7F-E453-86FD-D38217AF36E4": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2688.0,
+        -1280.0,
+        1024.999956705769,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "A073307D-4DB0-FEBA-27F4-399EBE6A43E9": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        -640.0,
+        1025.0000027392077,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "A0D01821-4C10-D020-BA24-329F5BEFAAAF": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3584.0,
+        2944.0,
+        1024.999981572589,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "A0D5C96B-4D70-618D-12E5-89AACFA3BAE0": {
-      "class": 14,
+      "class": 15,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3319,7 +4667,7 @@
       ]
     },
     "A401020F-4575-D27C-FE50-2DA3B43EC7B2": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3334,8 +4682,24 @@
         1.0
       ]
     },
+    "A53823CE-4FDA-2BBA-0524-18B86932DC52": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1408.0,
+        1664.0,
+        1024.9999504542093,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "A645378B-4DA0-BB56-4AB6-CCA94EF49AF0": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3351,7 +4715,7 @@
       ]
     },
     "A82FF861-4C32-761E-E8C2-7E8C23E7FBCA": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3367,7 +4731,7 @@
       ]
     },
     "A9045415-4161-5D17-911F-719AA298F415": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3383,7 +4747,7 @@
       ]
     },
     "A9AD61AF-4321-A8C7-402E-9D8AB604D596": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3399,7 +4763,7 @@
       ]
     },
     "AADAD8A5-4890-7C86-9D60-81B18D15A21A": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 1857
@@ -3417,8 +4781,24 @@
         1.0
       ]
     },
+    "AB41B302-4D2C-413D-E778-CCB30CB47EAF": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        1408.0,
+        1025.0000545393043,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "AB4BAF13-45C0-2886-C380-2486E865C2D5": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3433,8 +4813,40 @@
         1.4461042881011963
       ]
     },
+    "ACDC124C-4131-6754-C4EB-72B826EFEFDB": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3584.0,
+        2560.0,
+        1024.9999976686906,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "AD7CBB72-4684-24C3-ACC6-E2997F608A33": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        4096.0,
+        1025.0000829738215,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "AD9D7EAD-48EC-6778-067A-379A78B98175": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3450,7 +4862,7 @@
       ]
     },
     "ADC91122-46E0-6ADC-A6B1-7B87892B2F2B": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3466,7 +4878,7 @@
       ]
     },
     "AE3E3955-497F-E613-9C82-A097FF027E76": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3482,7 +4894,7 @@
       ]
     },
     "AE61BBC2-49EF-EFF0-0F6C-95A492738128": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3498,7 +4910,7 @@
       ]
     },
     "AEA3226F-4CC2-E2EE-A725-3D9454A82E56": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3513,8 +4925,40 @@
         0.5892056226730347
       ]
     },
+    "AF41F0F6-47FA-B575-7773-A1B9AC2971B7": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        0.0,
+        1024.9999756881114,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "AF8D3158-4D40-948A-DAEF-9AB9D5E3F592": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1920.0,
+        -512.0,
+        1024.9999989977618,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "B1B6B6C1-419C-F391-1AA8-DAAE98F475B9": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3530,7 +4974,7 @@
       ]
     },
     "B25BE75F-49A8-A5FA-AD30-1F86ECF496E5": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3546,13 +4990,13 @@
       ]
     },
     "B2B687BA-4E6D-6821-B15F-2CA86CA4DD85": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -2478.103838189024,
         -400.7749247957033,
-        1006.4307327270508,
+        867.552978515625,
         0.0,
         39.94249614119627,
         -0.0,
@@ -3562,7 +5006,7 @@
       ]
     },
     "B3E9A071-4501-BB55-2AB8-1898297C4051": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3578,7 +5022,7 @@
       ]
     },
     "B47FFD21-4106-9139-BF08-21B412CF5CE4": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3594,7 +5038,7 @@
       ]
     },
     "B490695B-4C87-BB90-F70E-9DA7EAE5364C": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3610,7 +5054,7 @@
       ]
     },
     "B4CA8036-4802-CF87-985C-A1A820C83A81": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3626,7 +5070,7 @@
       ]
     },
     "B570AFE1-4E6D-AB8C-1ACF-81AEFAEFFB41": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3641,8 +5085,24 @@
         1.0
       ]
     },
+    "B5FD73E9-4496-734C-17BF-AB8CF390107A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2176.0,
+        -768.0,
+        1024.999968202754,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "B6BF0325-4CA9-E20F-27FF-089BA98687BA": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3658,7 +5118,7 @@
       ]
     },
     "B6C6FF65-4B1D-9D5F-A0A2-F495491E1CF7": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 10018
@@ -3676,8 +5136,24 @@
         1.0
       ]
     },
+    "B6D36D16-4B18-5FDA-3422-F39330198A0E": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        4352.0,
+        1024.9999552489328,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "B850C864-4CBE-B6F2-E532-92B06ECDEE7D": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3693,13 +5169,13 @@
       ]
     },
     "B8580882-4BFA-0104-3A7E-7B8900AA2246": {
-      "class": 10,
+      "class": 11,
       "collision": false,
       "homing": true,
       "trs": [
         2613.949287498296,
         -2792.351753011527,
-        1006.4307327270508,
+        1083.0868682861328,
         40.64705462150894,
         22.47235437545212,
         -89.88332762176697,
@@ -3709,7 +5185,7 @@
       ]
     },
     "B86910A5-4BFB-73F4-6D8B-69A1CB5D98FB": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3725,7 +5201,7 @@
       ]
     },
     "B8DB63C2-4002-69D4-D81E-368BD16F577C": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3741,13 +5217,13 @@
       ]
     },
     "B8EEBEC9-4E21-F399-54E2-C8935B96676C": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -820.2100838670449,
         -3526.2434101550266,
-        1006.4307327270508,
+        1027.6552810668945,
         -0.0,
         -113.62425203091792,
         0.0,
@@ -3756,8 +5232,24 @@
         5.0
       ]
     },
+    "B92D0B43-4673-9B99-187E-1DBA06F4517C": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        128.0,
+        1025.0000345402154,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "B96E2B3C-4C69-1D03-A3FC-90B7F127EAD8": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 1857
@@ -3776,7 +5268,7 @@
       ]
     },
     "B9EB6374-45B6-C9CF-7F84-5AB2AE601087": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3791,8 +5283,24 @@
         0.8029267191886902
       ]
     },
+    "BA43C8A9-4757-2386-2ADA-03AC016D7156": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3328.0,
+        3072.0,
+        1025.0000390614273,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "BB0D47C8-490A-EA89-FF2C-EDB296D10E84": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3808,7 +5316,7 @@
       ]
     },
     "BBAE64C7-45EA-552F-FBFB-07BF5A9290F4": {
-      "class": 20,
+      "class": 21,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3824,7 +5332,7 @@
       ]
     },
     "BCC997C3-4283-839D-C494-809B32B57A29": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3840,7 +5348,7 @@
       ]
     },
     "BCFE5611-4320-4A79-99F4-9D829D2A39A8": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3856,7 +5364,7 @@
       ]
     },
     "BD2AE51B-4624-CA70-B4E3-598E65F69D4B": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3871,8 +5379,56 @@
         1.3361766338348389
       ]
     },
+    "BEECB9C8-4294-7D83-4C8C-21B96D420B44": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -256.0,
+        3456.0,
+        1025.0000117222182,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "BFE50691-4C69-F8B2-600E-61AC789F9E4B": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        -640.0,
+        1025.000001826773,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "C035E505-467D-5EA4-CE2F-E1AC41857124": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        4224.0,
+        1025.0000086835917,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "C07E14B7-494D-108A-1DCA-F9A1A9156A83": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3888,7 +5444,7 @@
       ]
     },
     "C3C3453D-458B-C2BB-5BD9-20A82D9F5CEA": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3903,8 +5459,24 @@
         6.0
       ]
     },
+    "C4A90343-46F1-46B0-FD77-EC92050B3C19": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        3328.0,
+        2944.0,
+        1025.000039121317,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "C4E97937-4560-8718-5766-46A1F42FD7ED": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3920,7 +5492,7 @@
       ]
     },
     "C55EA455-4D7F-0078-D884-8298CF03FBF7": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
@@ -3936,7 +5508,7 @@
       ]
     },
     "C622E41A-455E-2C92-B2C3-F6A421D32F82": {
-      "class": 18,
+      "class": 19,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3952,7 +5524,7 @@
       ]
     },
     "C6BB719F-4E12-DFF2-44F2-CFB21EA80D1A": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3968,7 +5540,7 @@
       ]
     },
     "C78EE5C4-4E5D-1710-4681-619FACC2C3FE": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3984,7 +5556,7 @@
       ]
     },
     "C7D0B6B5-40A9-2564-55AF-DEB1C008491C": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -3999,14 +5571,30 @@
         0.6282387971878052
       ]
     },
+    "C85F9E2D-4301-8959-4FA4-2F88671DB5CC": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -768.0,
+        -1536.0,
+        1025.0000318449152,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "CA9D8566-47C0-B4CD-2809-F1BCB3D23F02": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -1525.019057558623,
         -2965.5048712212206,
-        1006.4307327270508,
+        1064.4598999023438,
         -1.3699434416020508,
         -127.33145347127957,
         1.044590926595483,
@@ -4016,7 +5604,7 @@
       ]
     },
     "CACD6C53-464A-4073-A8CE-B9A9D464D004": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4032,7 +5620,7 @@
       ]
     },
     "CAEAFEDC-4C80-3D21-FA7D-C68A733AD4F3": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 9862
@@ -4051,7 +5639,7 @@
       ]
     },
     "CB156819-438E-81A3-75C9-B19558C71945": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": false,
       "trs": [
@@ -4067,7 +5655,7 @@
       ]
     },
     "CB4B1C14-40B4-1179-2AA8-EDBFD2937BFB": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4083,23 +5671,23 @@
       ]
     },
     "CC568614-42A4-53A6-7B6C-339C6911C9F0": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": false,
       "trs": [
-        -2019.6358807155593,
-        839.0908253260701,
+        -2085.2948467800124,
+        910.0389530726521,
         1884.563757603569,
-        -9.563322737950685,
-        -26.043959835715214,
-        -90.91593361456567,
+        -9.563322737950696,
+        -12.726839482617889,
+        -90.91593361456576,
         5.447999,
         5.447999,
         5.447999
       ]
     },
     "CCCA910B-454F-E4C1-9684-26A7B41CC644": {
-      "class": 23,
+      "class": 24,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4115,7 +5703,7 @@
       ]
     },
     "CCFD2098-4B93-B985-4018-63A35796AEC6": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4131,7 +5719,7 @@
       ]
     },
     "CD696B42-404C-73D6-BF91-6E801A9C0E49": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4147,7 +5735,7 @@
       ]
     },
     "CD9F40DD-4EF1-0B15-F697-65894FEDF11A": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4163,7 +5751,7 @@
       ]
     },
     "CE9BEAE4-4977-13B5-0921-C3A2A26AAB4F": {
-      "class": 21,
+      "class": 22,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4179,7 +5767,7 @@
       ]
     },
     "CF8B982B-4BE3-43B7-D0F1-2690FD161E38": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4194,8 +5782,24 @@
         0.7052674889564514
       ]
     },
-    "D195FB05-42F6-1855-E06D-BF85BE3E4369": {
+    "D01A207F-4AC5-5661-1D49-A0AB38FCB669": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1280.0,
+        1536.0,
+        1025.0000078074343,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "D195FB05-42F6-1855-E06D-BF85BE3E4369": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4210,8 +5814,40 @@
         1.0
       ]
     },
+    "D262554E-4AEA-A687-E71A-BC8716DD5694": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        128.0,
+        1792.0,
+        1025.000027418065,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "D2B4DEF7-44B7-349B-D086-33B7F3328E40": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -128.0,
+        -1536.0,
+        1025.0000840624296,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "D2F155F7-4DA6-F281-FFFC-4F8E03810767": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 1857
@@ -4229,14 +5865,30 @@
         1.0
       ]
     },
+    "D32FF1DE-48DE-3AB5-0D1E-2AB8272A1154": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        256.0,
+        1408.0,
+        1024.9999695096292,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "D33F4B58-40E9-1E3B-1416-F48A7A004691": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         1673.9334717927013,
         -1869.0399416704186,
-        1006.4307327270508,
+        987.2202835083008,
         0.0,
         -168.16807755448625,
         0.0,
@@ -4245,8 +5897,24 @@
         5.0
       ]
     },
+    "D394D608-4D14-A84A-7D01-C1BD08B0454D": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1152.0,
+        2432.0,
+        1024.9999928591108,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "D423106E-4BA5-A48E-1D50-AFB69ABE0F32": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4261,8 +5929,40 @@
         1.03853
       ]
     },
+    "D4FAE814-4CB8-FC0B-A6AC-29A615FE8687": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1152.0,
+        1664.0,
+        1024.99998991545,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "D5AE724F-40D6-5FF6-2761-B98F6CC699BC": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1408.0,
+        4352.0,
+        1025.000024358644,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "D5ECCD09-4EF3-6A44-DCD3-459B26F63F3F": {
-      "class": 10,
+      "class": 11,
       "collision": false,
       "homing": true,
       "trs": [
@@ -4278,7 +5978,7 @@
       ]
     },
     "D69DCA11-4AFE-B492-07B2-0B9EBA2BF23A": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": false,
       "trs": [
@@ -4293,8 +5993,24 @@
         6.0
       ]
     },
+    "D75691C8-4489-974E-8953-CE930E6E9353": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -896.0,
+        -1408.0,
+        1025.0000073220021,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "D7C05878-486C-BA5E-4471-95A79075479D": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4309,8 +6025,24 @@
         1.0
       ]
     },
+    "D903A570-4238-C28E-3F04-FE9ACD2E38B6": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1792.0,
+        1152.0,
+        1024.9999683412825,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "D9270E20-4BEC-0A0E-873F-5DBBFDAE541C": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4325,8 +6057,40 @@
         1.0991089344024658
       ]
     },
+    "DA056AF7-40ED-51F4-9179-14A4205D15FA": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1408.0,
+        4224.0,
+        1024.999950260681,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "DA0DCE06-4DD3-8750-81A7-C480CCEC7E63": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        -384.0,
+        1025.0000162003937,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "DACD7655-4D88-E226-167F-E696162CEDBE": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 9977
@@ -4345,7 +6109,7 @@
       ]
     },
     "DAFC5FFD-47EC-7DE8-794C-0B8E2D59246D": {
-      "class": 0,
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4361,7 +6125,7 @@
       ]
     },
     "DB5BCA93-41AD-EF3D-4CE4-78B8B52A10C6": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4377,7 +6141,7 @@
       ]
     },
     "DBC74C1F-47DB-1DA1-8D57-88B5E5928205": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4393,13 +6157,13 @@
       ]
     },
     "DC08B4E1-4885-7716-6D41-C4B8F7AC3FE0": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": true,
       "trs": [
         -2135.8948630147534,
         956.2826123194754,
-        1006.4307327270508,
+        1046.2309646606445,
         1.2289866462265346,
         155.32007576473126,
         2.6723320924036855,
@@ -4409,7 +6173,7 @@
       ]
     },
     "DC42201A-41BF-5000-B928-9EB1E7DA47EA": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4425,7 +6189,7 @@
       ]
     },
     "DCC2B4A1-4857-A8CC-539B-31876FE243D2": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4440,8 +6204,24 @@
         1.0
       ]
     },
+    "DE0BD40E-43E9-3555-089A-7EA5C9ACCBBE": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2176.0,
+        -256.0,
+        1024.9999882108743,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "E022AB8A-40CA-64F0-E882-D4A539FE1609": {
-      "class": 22,
+      "class": 23,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4457,7 +6237,7 @@
       ]
     },
     "E083E41A-4378-46D5-F467-7D9A8DE89497": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4472,8 +6252,40 @@
         0.8549607992172241
       ]
     },
-    "E2C36DC6-4520-88FF-C140-A4B579A0E9F3": {
+    "E25028CC-44A9-7410-3012-81A44DFD3F49": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        -128.0,
+        1025.0000224087225,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "E290F34B-4D0B-307D-A622-1EA97DCC9F64": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        0.0,
+        -1664.0,
+        1024.999917075478,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "E2C36DC6-4520-88FF-C140-A4B579A0E9F3": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4488,8 +6300,24 @@
         1.0
       ]
     },
+    "E3496117-41E6-6BCC-1696-F7AC7C3C9FF7": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1280.0,
+        1408.0,
+        1025.0000142268254,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "E372E3F0-471C-E9CC-EDDA-B0AFA81EE63D": {
-      "class": 6,
+      "class": 7,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4505,7 +6333,7 @@
       ]
     },
     "E42F8C62-4509-15FF-C0AB-34806705990B": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4521,7 +6349,7 @@
       ]
     },
     "E464ED97-49F5-2D74-0068-649499F53390": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4537,7 +6365,7 @@
       ]
     },
     "E4935215-42FD-C6CD-33EF-16B1530D09E2": {
-      "class": 5,
+      "class": 6,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4553,7 +6381,7 @@
       ]
     },
     "E4B0CE72-4FA2-7633-9FE5-A68271F90EA4": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4569,7 +6397,7 @@
       ]
     },
     "E51E9AF3-4D63-2915-74D1-A18C9FFD71F6": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4585,7 +6413,7 @@
       ]
     },
     "E570FA38-4EA4-BE0B-1AD7-83819D2B774F": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4600,8 +6428,24 @@
         0.7641376852989197
       ]
     },
+    "E813D1E9-4B63-C214-3E4D-1BAC8384714A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2304.0,
+        4224.0,
+        1024.999940251021,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "EA1E093B-402D-4122-B3CB-B7A33D855123": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4617,7 +6461,7 @@
       ]
     },
     "EA49EB43-4654-2A6E-CD0B-6FA6C9AFBFFC": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4633,7 +6477,7 @@
       ]
     },
     "EB3988B9-4BC0-BA18-6415-EA9282E571D4": {
-      "class": 2,
+      "class": 3,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4649,7 +6493,7 @@
       ]
     },
     "EBAEDEF1-4B4A-A268-8828-B69D4B3AD205": {
-      "class": 1,
+      "class": 2,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4665,23 +6509,23 @@
       ]
     },
     "EBBF5F29-47F4-7C51-BFFD-289B600252C9": {
-      "class": 12,
+      "class": 13,
       "collision": false,
       "homing": false,
       "trs": [
-        -2491.2961083985356,
+        -2431.7595903016118,
         -468.2467387750207,
-        1785.9050202446954,
-        0.9049115894035562,
-        -178.70148003667802,
-        90.4302510927292,
+        1859.9357743340508,
+        1.0306450466922994,
+        176.19639480983216,
+        92.31365887180989,
         5.0,
         5.0,
         5.0
       ]
     },
     "EC6761EB-446F-0CDE-3619-DE833EA007B4": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 24693
@@ -4699,8 +6543,24 @@
         1.0
       ]
     },
+    "ECC808B5-4956-48CB-6E13-24914BEADD6F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        1152.0,
+        1024.9999154469845,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "EE76739F-4605-D307-70DE-4AAD16F556A7": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 25353
@@ -4719,7 +6579,7 @@
       ]
     },
     "EEAE3A80-4127-06DF-10C4-97B5483F6A1E": {
-      "class": 17,
+      "class": 18,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4734,8 +6594,24 @@
         1.3223211765289307
       ]
     },
-    "EEF75E30-4874-817D-2E92-8B9895F7FA2F": {
+    "EED27EDE-48CD-3FA2-5722-A7B44CDD9419": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1536.0,
+        1152.0,
+        1024.9999824218892,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "EEF75E30-4874-817D-2E92-8B9895F7FA2F": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4751,7 +6627,7 @@
       ]
     },
     "F11ECA14-4C76-A587-30CB-EDBAF64CDEF0": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 9977
@@ -4769,8 +6645,40 @@
         1.0
       ]
     },
+    "F12DAD0F-47E3-F46C-A093-FCAD33529A9A": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2432.0,
+        0.0,
+        1024.9999799589289,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "F1F28220-4BA7-EBD3-F496-1087FBA8A866": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2560.0,
+        -1536.0,
+        1025.0000233797803,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "F26A43D2-4CBE-8CBE-7394-9CAF4B4E5C8B": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4785,8 +6693,24 @@
         0.7851344347000122
       ]
     },
-    "F489BF72-473A-02D8-D16B-AE8F7E956B86": {
+    "F27617E7-4284-EF41-6FA2-CDA966E426BC": {
       "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        128.0,
+        896.0,
+        1024.9999506243157,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "F489BF72-473A-02D8-D16B-AE8F7E956B86": {
+      "class": 1,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4801,8 +6725,24 @@
         1.0
       ]
     },
+    "F4D2F6A3-4722-2D68-7A41-478E6A2029D2": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -896.0,
+        -1536.0,
+        1025.0000490906612,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "F8B8AA5E-498B-B4F6-4997-D6BFC685CA84": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 9977
@@ -4821,7 +6761,7 @@
       ]
     },
     "F8ECE268-4EFD-7712-ED1F-C2B7DC6CED96": {
-      "class": 15,
+      "class": 16,
       "collision": false,
       "homing": true,
       "trs": [
@@ -4836,8 +6776,24 @@
         1.0
       ]
     },
+    "F9CE69EA-434E-5C5E-66F3-A888D05EC0BA": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1280.0,
+        1664.0,
+        1024.9999888544958,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "F9E45705-410E-166B-C531-CB88F33D0BA4": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4853,13 +6809,13 @@
       ]
     },
     "FC03956D-442F-DE36-5DDA-E88DCAB291B4": {
-      "class": 13,
+      "class": 14,
       "collision": false,
       "homing": true,
       "trs": [
         -1469.6849177568893,
         2402.4531143976437,
-        1006.4307327270508,
+        1074.4470901489258,
         0.0,
         -121.79373121452798,
         0.0,
@@ -4869,7 +6825,7 @@
       ]
     },
     "FC554780-4E22-AD56-B5A0-659E310E8146": {
-      "class": 16,
+      "class": 17,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4885,7 +6841,7 @@
       ]
     },
     "FCC0A819-4476-0DB9-0366-E5B05EC4E361": {
-      "class": 4,
+      "class": 5,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4901,7 +6857,7 @@
       ]
     },
     "FE021D0C-4A0C-A134-28CA-25BD2A55F45B": {
-      "class": 25,
+      "class": 26,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4916,8 +6872,40 @@
         0.6223182082176208
       ]
     },
+    "FE29E57F-4DEB-DFC5-3789-AAAAED3D4192": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1152.0,
+        1536.0,
+        1024.999985190503,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "FE61C168-4A91-67C0-968E-97AB9653B6D8": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        2048.0,
+        128.0,
+        1025.0000299078174,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "FEB4B9EB-4AD3-C851-116B-C182CD43B43D": {
-      "class": 19,
+      "class": 20,
       "collision": true,
       "data": {
         "seed": 25353
@@ -4935,8 +6923,24 @@
         1.0
       ]
     },
+    "FED0C759-485F-69C0-EFB9-1C8361F6730F": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        1664.0,
+        1280.0,
+        1024.9999236223111,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "FED3D20A-4781-99D6-F5DD-8D99847A8D74": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
@@ -4951,8 +6955,24 @@
         0.6643726825714111
       ]
     },
+    "FF06673A-48D2-864D-A805-4AA6CBF640F1": {
+      "class": 0,
+      "collision": true,
+      "homing": true,
+      "trs": [
+        -128.0,
+        4480.0,
+        1024.9999934109258,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
     "FFE313CD-495E-477D-CCF3-94B985081695": {
-      "class": 3,
+      "class": 4,
       "collision": true,
       "homing": true,
       "trs": [
