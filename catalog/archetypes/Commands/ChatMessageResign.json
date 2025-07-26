@@ -1,10 +1,9 @@
-{
+﻿{
   "actions": [
     {
       "function_id": "Game_EndGameForPlayer",
       "parameters": [
         {
-          "id": "player",
           "expressions": [
             {
               "function": {
@@ -12,44 +11,46 @@
               },
               "type": "Function"
             }
-          ]
+          ],
+          "id": "player"
         },
         {
-          "id": "outcome",
           "expressions": [
             {
-              "type": "Preset",
               "preset": {
                 "preset_id": "Game_GameOverType",
                 "value_id": "defeat"
-              }
+              },
+              "type": "Preset"
             }
-          ]
+          ],
+          "id": "outcome"
         },
         {
-          "id": "kick",
           "expressions": [
             {
-              "type": "Preset",
               "preset": {
                 "preset_id": "Game_KickDontKick",
                 "value_id": "nokick"
-              }
+              },
+              "type": "Preset"
             }
-          ]
+          ],
+          "id": "kick"
         }
       ]
-    },    {
+    },
+    {
       "function_id": "UnitGroup_ForEachUnitInGroup",
       "is_enabled": true,
       "parameters": [
         {
           "expressions": [
             {
-              "type": "Function",
               "function": {
                 "function_id": "UnitGroup_GetUnitsOfPlayer"
-              }
+              },
+              "type": "Function"
             }
           ],
           "id": "units"
@@ -57,7 +58,6 @@
       ],
       "sub_functions": [
         {
-          "id": "actions",
           "functions": [
             {
               "function_id": "Actor_ApplyBuff",
@@ -96,13 +96,13 @@
                 {
                   "expressions": [
                     {
-                      "type": "Function",
                       "function": {
                         "function_id": "UnitGroup_GetCurrentUnit",
                         "is_enabled": true,
                         "parameters": [],
                         "sub_functions": []
-                      }
+                      },
+                      "type": "Function"
                     }
                   ],
                   "id": "target"
@@ -110,13 +110,13 @@
                 {
                   "expressions": [
                     {
-                      "type": "Function",
                       "function": {
                         "function_id": "UnitGroup_GetCurrentUnit",
                         "is_enabled": true,
                         "parameters": [],
                         "sub_functions": []
-                      }
+                      },
+                      "type": "Function"
                     }
                   ],
                   "id": "source"
@@ -124,7 +124,8 @@
               ],
               "sub_functions": []
             }
-          ]
+          ],
+          "id": "actions"
         }
       ]
     },
@@ -143,16 +144,16 @@
           "id": "player_group"
         },
         {
-          "id": "enabled",
           "expressions": [
             {
-              "type": "Preset",
               "preset": {
                 "preset_id": "General_EnableDisable",
                 "value_id": "disable"
-              }
+              },
+              "type": "Preset"
             }
-          ]
+          ],
+          "id": "enabled"
         }
       ]
     }

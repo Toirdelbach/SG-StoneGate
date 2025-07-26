@@ -1,0 +1,19 @@
+{
+  "__base_type": "CapturePointReward",
+  "based_on": "CapturePointReward",
+  "durations": [],
+  "effects_gained": [],
+  "effects_lost": [],
+  "effects_periodic": [],
+  "flags": {
+    "apply_creep_level_buff": false,
+    "capture_nearby_structures": true,
+    "execute_effects_on_team": false,
+    "sync_to_mission_time": false,
+    "units_are_neutral": false
+  },
+  "id": "MercCamp_CapturePointReward",
+  "neutral_capturable_fx": "",
+  "units_gained": ["AbyssalGateBase"],
+  "units_periodic": []
+}

@@ -1,1 +1,27 @@
-﻿{}
+﻿{
+  "map": {
+    "_MercCreepCamp0": {
+      "based_on": "MercCreepCamp",
+      "creeps": [
+        "CaptureDummy"
+      ],
+      "id": "_MercCreepCamp0",
+      "reward_captureless": "MercCamp_CapturePointReward"
+    },
+    "_MercCreepCamp1": {
+      "based_on": "MercCreepCamp",
+      "id": "_MercCreepCamp1",
+      "reward_captureless": "MercCamp_CapturePointReward"
+    },
+    "_MercCreepCamp2": {
+      "based_on": "MercCreepCamp",
+      "id": "_MercCreepCamp2",
+      "reward_captureless": "MercCamp_CapturePointReward"
+    },
+    "_MercCreepCamp3": {
+      "based_on": "MercCreepCamp",
+      "id": "_MercCreepCamp3",
+      "reward_captureless": "MercCamp_CapturePointReward"
+    }
+  }
+}

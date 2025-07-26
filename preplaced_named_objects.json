@@ -92,6 +92,15 @@
       573440
     ]
   },
+  "03467B52-4699-E971-1204-329353758C90": {
+    "facing": 1080983831,
+    "kind": "_MercCreepCamp0",
+    "player": 31,
+    "position": [
+      -1057780,
+      -7363
+    ]
+  },
   "03875F18-4BEB-C851-A025-51BD8D4B423C": {
     "data": {
       "seed": 25422
@@ -162,6 +171,15 @@
     "position": [
       -1310720,
       -114688
+    ]
+  },
+  "05A71BFC-499B-2D64-24ED-588D8D3F4E72": {
+    "facing": 15846158,
+    "kind": "_MercCreepCamp2",
+    "player": 31,
+    "position": [
+      1092474,
+      -10956
     ]
   },
   "05E2CC14-47A8-5003-1263-869BA18E7C48": {
@@ -275,6 +293,15 @@
       -180224
     ]
   },
+  "09AACC84-416E-16F6-DC1B-18ACF1118091": {
+    "facing": 15700595,
+    "kind": "Stormgate",
+    "player": 0,
+    "position": [
+      0,
+      0
+    ]
+  },
   "09F1EF1B-4616-D3B1-0355-BF89BB548758": {
     "data": {
       "seed": 3762
@@ -285,6 +312,15 @@
     "position": [
       114688,
       1294336
+    ]
+  },
+  "0A0FC9E5-42E6-5BE5-3369-FBB412C3E563": {
+    "facing": 1327406766,
+    "kind": "AbyssalGateBase",
+    "player": 0,
+    "position": [
+      5707,
+      1054552
     ]
   },
   "0A29DB27-4675-8C90-67D2-5AB25766D8EB": {
@@ -906,15 +942,6 @@
     "position": [
       -1598670,
       1331943
-    ]
-  },
-  "223313BF-4A76-31D7-D4A4-CD8FC31ED5B7": {
-    "facing": 414216564,
-    "kind": "MegaResourceA",
-    "player": 2,
-    "position": [
-      1032192,
-      0
     ]
   },
   "2253C0D8-4538-856E-E3D0-CD8EE66318F2": {
@@ -1688,15 +1715,6 @@
       1933312
     ]
   },
-  "3CD3A807-414C-EAC5-AA53-2E928FB6ADD8": {
-    "facing": 129273720,
-    "kind": "MegaResourceA",
-    "player": 2,
-    "position": [
-      0,
-      -1032192
-    ]
-  },
   "3D16236D-4514-1C0D-FD97-B2970A9F8A5A": {
     "data": {
       "seed": 25422
@@ -1943,15 +1961,6 @@
       -1884160
     ]
   },
-  "46BD738E-45DB-EB54-27B8-1EAE5E74CC2C": {
-    "facing": 374484085,
-    "kind": "MegaResourceA",
-    "player": 2,
-    "position": [
-      0,
-      1032192
-    ]
-  },
   "46C11359-4DC7-34DE-5C3D-02A168D0EDF1": {
     "data": {
       "seed": 17365
@@ -2193,6 +2202,15 @@
     "position": [
       -2015232,
       -868352
+    ]
+  },
+  "5125C251-4C6B-6B06-745D-9794B6B74838": {
+    "facing": 1617702888,
+    "kind": "_MercCreepCamp3",
+    "player": 31,
+    "position": [
+      -76,
+      -1086421
     ]
   },
   "512B5376-4202-5803-D59E-72B66E4DF406": {
@@ -3234,15 +3252,6 @@
     "position": [
       1409024,
       -1212416
-    ]
-  },
-  "74E59DA6-429D-0E74-6167-41ADE05ECC15": {
-    "facing": 1849728136,
-    "kind": "MegaResourceA",
-    "player": 2,
-    "position": [
-      -1032192,
-      0
     ]
   },
   "751DFCCC-4877-337A-14F8-C1A49804CB08": {
@@ -4601,6 +4610,15 @@
       -1245184
     ]
   },
+  "9D676900-43B3-1DC6-62A5-D7931B1C9502": {
+    "facing": 1702623075,
+    "kind": "AbyssalGateBase",
+    "player": 0,
+    "position": [
+      -1058326,
+      -2280
+    ]
+  },
   "9DCB1FE5-4896-13EF-B406-6D9831CD6779": {
     "facing": 471431154,
     "kind": "Tree",
@@ -4944,6 +4962,15 @@
     "position": [
       -1130496,
       1900544
+    ]
+  },
+  "AB66E958-4218-E487-3C5C-39BCEBE2EACC": {
+    "facing": 549784214,
+    "kind": "_MercCreepCamp1",
+    "player": 31,
+    "position": [
+      -906,
+      1057506
     ]
   },
   "AB7F9723-4613-CEFE-6483-DD8863B28C59": {
