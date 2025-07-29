@@ -1,0 +1,12 @@
+﻿{
+  "id": "ArcshipTier2Flying",
+  "starting_snowtags": [
+    "entity_unit_structure",
+    "preventdefeat_elimination",
+    "heightplane_air",
+    "attribute_mechanical",
+    "attribute_heavy",
+    "townhall",
+    "state_resourcedropoff_b"
+  ]
+}
