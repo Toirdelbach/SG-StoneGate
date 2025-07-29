@@ -1,0 +1,31 @@
+{
+  "__base_type": "GlobalVariable",
+  "array_size": 32,
+  "based_on": "GlobalVariable",
+  "id": "PlayersHaveResigned",
+  "initial_values": [
+    {
+      "type": "Value",
+      "value": {
+        "type": {
+          "directive": "FunctionType",
+          "type": "Boolean"
+        },
+        "value": "false"
+      }
+    }
+  ],
+  "is_array": true,
+  "is_constant": false,
+  "name": "",
+  "per_element_initial_values": false,
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "tags": [],
+    "type": "Boolean"
+  }
+}

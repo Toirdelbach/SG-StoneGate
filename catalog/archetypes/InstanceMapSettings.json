@@ -9,6 +9,7 @@
   "description": "The Stone will be gated",
   "id": "InstanceMapSettings",
   "lighting_settings": "DefaultLightingNight",
+  "map_music": "SoundData_Music_Multiplayer",
   "playable_bounds": {
     "bottom_offset": 3,
     "left_offset": 3,
