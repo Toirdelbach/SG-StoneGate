@@ -1,0 +1,868 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "UI_SendChatMessage",
+      "is_enabled": false,
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "type": "Function",
+                        "function": {
+                          "function_id": "String_Concat",
+                          "parameters": [
+                            {
+                              "id": "strings",
+                              "expressions": [
+                                {
+                                  "type": "Value",
+                                  "value": {
+                                    "type": {
+                                      "directive": "FunctionType",
+                                      "tags": [
+                                        "to_text"
+                                      ],
+                                      "type": "String"
+                                    },
+                                    "value": "Team "
+                                  }
+                                },
+                                {
+                                  "function": {
+                                    "function_id": "Math_Arithmetic_Integer",
+                                    "is_enabled": true,
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "type": "Variable",
+                                            "variable": {
+                                              "variable_id": "triggering_team"
+                                            }
+                                          }
+                                        ],
+                                        "id": "value1"
+                                      },
+                                      {
+                                        "expressions": [
+                                          {
+                                            "preset": {
+                                              "preset_id": "Math_ArithmeticOperator",
+                                              "value_id": "plus"
+                                            },
+                                            "type": "Preset"
+                                          }
+                                        ],
+                                        "id": "op"
+                                      },
+                                      {
+                                        "expressions": [
+                                          {
+                                            "type": "Value",
+                                            "value": {
+                                              "type": {
+                                                "directive": "FunctionType",
+                                                "type": "Integer"
+                                              },
+                                              "value": "1"
+                                            }
+                                          }
+                                        ],
+                                        "id": "value2"
+                                      }
+                                    ],
+                                    "sub_functions": []
+                                  },
+                                  "type": "Function"
+                                },
+                                {
+                                  "type": "Value",
+                                  "value": {
+                                    "type": {
+                                      "directive": "FunctionType",
+                                      "tags": [
+                                        "to_text"
+                                      ],
+                                      "type": "String"
+                                    },
+                                    "value": " OnStructureKilled: "
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "id": "value"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers"
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "group"
+        }
+      ]
+    },
+    {
+      "function_id": "UnitGroup_RemoveUnit",
+      "parameters": [
+        {
+          "id": "group",
+          "expressions": [
+            {
+              "type": "Variable",
+              "variable": {
+                "variable_id": "TeamStructures",
+                "indices": [
+                  {
+                    "type": "Variable",
+                    "variable": {
+                      "variable_id": "triggering_team"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "unit",
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetTriggeringUnit"
+              },
+              "type": "Function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "function_id": "UI_SendChatMessage",
+      "is_enabled": false,
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "type": "Function",
+                        "function": {
+                          "function_id": "UnitGroup_CountAliveUnits",
+                          "parameters": [
+                            {
+                              "id": "group",
+                              "expressions": [
+                                {
+                                  "type": "Variable",
+                                  "variable": {
+                                    "indices": [
+                                      {
+                                        "type": "Variable",
+                                        "variable": {
+                                          "variable_id": "triggering_team"
+                                        }
+                                      }
+                                    ],
+                                    "variable_id": "TeamStructures"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "id": "value"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers"
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "group"
+        }
+      ]
+    },
+    {
+      "function_id": "General_IfThenElse",
+      "parameters": [],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "type": "Function",
+                      "function": {
+                        "function_id": "UnitGroup_CountAliveUnits",
+                        "parameters": [
+                          {
+                            "id": "group",
+                            "expressions": [
+                              {
+                                "type": "Variable",
+                                "variable": {
+                                  "indices": [
+                                    {
+                                      "type": "Variable",
+                                      "variable": {
+                                        "variable_id": "triggering_team"
+                                      }
+                                    }
+                                  ],
+                                  "variable_id": "TeamStructures"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "preset": {
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Integer"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "id": "value2"
+                }
+              ],
+              "sub_functions": []
+            }
+          ],
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "UI_SendChatMessage",
+              "is_enabled": true,
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "type": "Function",
+                                "function": {
+                                  "function_id": "String_Concat",
+                                  "parameters": [
+                                    {
+                                      "id": "strings",
+                                      "expressions": [
+                                        {
+                                          "type": "Value",
+                                          "value": {
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "tags": [
+                                                "to_text"
+                                              ],
+                                              "type": "String"
+                                            },
+                                            "value": "Team "
+                                          }
+                                        },
+                                        {
+                                          "function": {
+                                            "function_id": "Math_Arithmetic_Integer",
+                                            "is_enabled": true,
+                                            "parameters": [
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "type": "Variable",
+                                                    "variable": {
+                                                      "variable_id": "triggering_team"
+                                                    }
+                                                  }
+                                                ],
+                                                "id": "value1"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "preset": {
+                                                      "preset_id": "Math_ArithmeticOperator",
+                                                      "value_id": "plus"
+                                                    },
+                                                    "type": "Preset"
+                                                  }
+                                                ],
+                                                "id": "op"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "type": "Value",
+                                                    "value": {
+                                                      "type": {
+                                                        "directive": "FunctionType",
+                                                        "type": "Integer"
+                                                      },
+                                                      "value": "1"
+                                                    }
+                                                  }
+                                                ],
+                                                "id": "value2"
+                                              }
+                                            ],
+                                            "sub_functions": []
+                                          },
+                                          "type": "Function"
+                                        },
+                                        {
+                                          "type": "Value",
+                                          "value": {
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "tags": [
+                                                "to_text"
+                                              ],
+                                              "type": "String"
+                                            },
+                                            "value": " has been eliminated."
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ],
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "group"
+                }
+              ]
+            },
+            {
+              "function_id": "Variable_SetVariable",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "type": "Variable",
+                      "variable": {
+                        "indices": [
+                          {
+                            "type": "Variable",
+                            "variable": {
+                              "variable_id": "triggering_team"
+                            }
+                          }
+                        ],
+                        "variable_id": "TeamsHaveResigned"
+                      }
+                    }
+                  ],
+                  "id": "variable"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Boolean"
+                        },
+                        "value": "true"
+                      }
+                    }
+                  ],
+                  "id": "value"
+                }
+              ],
+              "sub_functions": []
+            },
+            {
+              "function_id": "PlayerGroup_ForEachPlayerInGroup",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetTeamPlayers",
+                        "parameters": [
+                          {
+                            "id": "team",
+                            "expressions": [
+                              {
+                                "type": "Variable",
+                                "variable": {
+                                  "variable_id": "triggering_team"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "players"
+                }
+              ],
+              "sub_functions": [
+                {
+                  "id": "actions",
+                  "functions": [
+                    {
+                      "function_id": "Game_EndGameForPlayer",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "PlayerGroup_GetCurrentPlayer"
+                              },
+                              "type": "Function"
+                            }
+                          ],
+                          "id": "player"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "preset": {
+                                "preset_id": "Game_GameOverType",
+                                "value_id": "defeat"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "id": "outcome"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "preset": {
+                                "preset_id": "Game_KickDontKick",
+                                "value_id": "nokick"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "id": "kick"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "UnitGroup_ForEachUnitInGroup",
+                      "is_enabled": true,
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetUnitsOfPlayer",
+                                "parameters": [
+                                  {
+                                    "id": "player",
+                                    "expressions": [
+                                      {
+                                        "type": "Function",
+                                        "function": {
+                                          "function_id": "PlayerGroup_GetCurrentPlayer"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "type": "Function"
+                            }
+                          ],
+                          "id": "units"
+                        }
+                      ],
+                      "sub_functions": [
+                        {
+                          "functions": [
+                            {
+                              "function_id": "Actor_ApplyBuff",
+                              "is_enabled": true,
+                              "parameters": [
+                                {
+                                  "expressions": [
+                                    {
+                                      "type": "Value",
+                                      "value": {
+                                        "type": {
+                                          "directive": "TypeRef",
+                                          "implements": "",
+                                          "inner_type": "",
+                                          "param_id": "",
+                                          "sub_directive": "None",
+                                          "tags": [],
+                                          "type": "Buff"
+                                        },
+                                        "value": "Uncontrollable_Buff"
+                                      }
+                                    }
+                                  ],
+                                  "id": "buff"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "type": "Value",
+                                      "value": {
+                                        "type": {
+                                          "directive": "FunctionType",
+                                          "implements": "",
+                                          "inner_type": "",
+                                          "param_id": "",
+                                          "sub_directive": "None",
+                                          "tags": [],
+                                          "type": "Integer"
+                                        },
+                                        "value": "1"
+                                      }
+                                    }
+                                  ],
+                                  "id": "stacks"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "function": {
+                                        "function_id": "UnitGroup_GetCurrentUnit",
+                                        "is_enabled": true,
+                                        "parameters": [],
+                                        "sub_functions": []
+                                      },
+                                      "type": "Function"
+                                    }
+                                  ],
+                                  "id": "target"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "function": {
+                                        "function_id": "UnitGroup_GetCurrentUnit",
+                                        "is_enabled": true,
+                                        "parameters": [],
+                                        "sub_functions": []
+                                      },
+                                      "type": "Function"
+                                    }
+                                  ],
+                                  "id": "source"
+                                }
+                              ],
+                              "sub_functions": []
+                            }
+                          ],
+                          "id": "actions"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function_id": "Game_SetFogOfWar",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetTeamPlayers",
+                        "parameters": [
+                          {
+                            "id": "team",
+                            "expressions": [
+                              {
+                                "type": "Variable",
+                                "variable": {
+                                  "variable_id": "triggering_team"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "player_group"
+                },
+                {
+                  "expressions": [
+                    {
+                      "preset": {
+                        "preset_id": "General_EnableDisable",
+                        "value_id": "disable"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "id": "enabled"
+                }
+              ]
+            }
+          ],
+          "id": "then"
+        },
+        {
+          "functions": [],
+          "id": "else"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_AndOrConditions",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "preset": {
+                "preset_id": "Logic_AndOrOperator",
+                "value_id": "and"
+              },
+              "type": "Preset"
+            }
+          ],
+          "id": "op"
+        }
+      ],
+      "sub_functions": [
+        {
+          "id": "conditions",
+          "functions": [
+            {
+              "function_id": "Entity_HasAnyTags",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit"
+                      },
+                      "type": "Function"
+                    }
+                  ],
+                  "id": "who"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "TypeRef",
+                          "type": "SnowTag"
+                        },
+                        "value": "preventdefeat_elimination"
+                      }
+                    }
+                  ],
+                  "id": "tags"
+                }
+              ]
+            },
+            {
+              "function_id": "Logic_Comparison",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "variable": {
+                        "indices": [
+                          {
+                            "type": "Variable",
+                            "variable": {
+                              "variable_id": "triggering_team"
+                            }
+                          }
+                        ],
+                        "variable_id": "TeamsHaveResigned"
+                      },
+                      "type": "Variable"
+                    }
+                  ],
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "preset": {
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "type": "Value",
+                      "value": {
+                        "type": {
+                          "directive": "FunctionType",
+                          "type": "Boolean"
+                        },
+                        "value": "false"
+                      }
+                    }
+                  ],
+                  "id": "value2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "function_id": "Unit_OnKilled"
+    }
+  ],
+  "id": "OnStructureKilled",
+  "variables": [
+    {
+      "array_size": 0,
+      "id": "triggering_team",
+      "initial_values": [
+        {
+          "type": "Function",
+          "function": {
+            "function_id": "Player_GetTeam",
+            "parameters": [
+              {
+                "id": "player",
+                "expressions": [
+                  {
+                    "type": "Function",
+                    "function": {
+                      "function_id": "Unit_GetOwningPlayer",
+                      "parameters": [
+                        {
+                          "id": "unit",
+                          "expressions": [
+                            {
+                              "type": "Function",
+                              "function": {
+                                "function_id": "Unit_GetTriggeringUnit"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "is_array": false,
+      "is_constant": false,
+      "is_id_based_on_name": true,
+      "name": "",
+      "per_element_initial_values": false,
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "tags": [],
+        "type": "Integer"
+      }
+    }
+  ]
+}
